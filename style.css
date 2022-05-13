@@ -2,11 +2,12 @@
     margin:0;
     padding: 0;
 }
+/* header */
 
 header{
     color : white;
     background-image: url(/images/mobile/image-hero.jpg);
-    min-height: 50vh;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     
@@ -18,6 +19,8 @@ header{
     grid-gap: 20px;
     
 }
+
+/*header nav bar */
 
 ul{
     list-style-type: none;
@@ -57,4 +60,18 @@ ul{
     width:500px;
     height: 100px; 
     border: 2px solid #fff;
+}
+
+/*interactive part*/
+
+.interactive-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.interactive-img{
+background-image: url(/images/mobile/image-interactive.jpg);
+width: 100px;
+height: 100px;
 }
