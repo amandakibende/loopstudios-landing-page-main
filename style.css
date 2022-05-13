@@ -70,8 +70,12 @@ ul{
     grid-gap: 20px;
 }
 
-.interactive-img{
-background-image: url(/images/mobile/image-interactive.jpg);
-width: 100px;
-height: 100px;
+.interactive-img, .interactive-txt {
+min-width: 50%;
+min-height: 50%;
+}
+
+.interactive-img img{
+   display: block;
+   width: 100%;
 }
