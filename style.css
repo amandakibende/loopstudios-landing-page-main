@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
 *{
     margin:0;
     padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+   
 }
 /* header */
 
@@ -40,12 +48,18 @@ ul{
       display: inline;
       min-width: 3em;
       margin: 2em;
+      font-family: 'Alata', sans-serif;
+      font-weight: 400;
     }
 
 
-    #title-h1, .header-h1{
+    .logo, .header-h1{
         padding-top: 25px;
         margin-left: 4em;
+    }
+
+    .header-h1{
+        font-size: 30px;
     }
 
 .attribution { 
@@ -59,8 +73,9 @@ ul{
 
 .header-h1{
     width:500px;
-    height: 100px; 
+    height: 200px; 
     border: 2px solid #fff;
+    padding: 30px;
 }
 
 /*interactive part*/
