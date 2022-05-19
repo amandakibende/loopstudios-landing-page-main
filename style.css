@@ -63,6 +63,9 @@ ul{
     }
 
 .attribution { 
+    height: 20em;
+    background-color: #000;
+    color: #fff;
     font-size: 11px;
     text-align: center;
 }
