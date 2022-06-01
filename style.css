@@ -141,7 +141,7 @@ ul{
 }
 .grid-2 { 
     grid-area: 1 / 2 / 2 / 3;
-    background-image: url(/images/desktop/image-deep-earth.jpg); 
+    background-image: url(/images/desktop/image-fisheye.jpg); 
     background-repeat: no-repeat;
  }
 .grid-3 { grid-area: 1 / 3 / 2 / 4;
